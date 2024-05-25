@@ -207,25 +207,8 @@
 			"url": "/project/coloriooo",
 			"thumbnail": "/projects/coloriooo/2.png",
 			"stack": ["Reactjs", "TailwindCSS"]
-		},
-		{
-			"name": "NoteIt",
-			"url": "/project/noteit",
-			"thumbnail": "/projects/noteit/1.png",
-			"stack": ["Reactjs"]
-		},
-		{
-			"name": "MyEBooks",
-			"url": "/project/myebooks",
-			"thumbnail": "/projects/myebooks/2.png",
-			"stack": ["Nodejs", "Expressjs", "Reactjs", "MongoDB"]
-		},
-		{
-			"name": "Result Management System",
-			"url": "/project/result-management-system",
-			"thumbnail": "/projects/resultMSystem/1.png",
-			"stack": ["Nodejs", "Expressjs", "Reactjs", "MongoDB"]
 		}
+		
 	],
 	"skills": [
 		"/skills-imgs/Nextjs.png",
