@@ -1,0 +1,257 @@
+
+{
+	"project": {
+		"farmhelp": {
+			"name": "Farmhelp",
+			"description": "We support farmers by providing maps of nearby soil testing labs and crop recommendations based on soil and weather data. Our services include plant disease detection from leaf images with pesticide suggestions, along with real-time weather updates and alerts. This helps farmers make informed decisions and optimize their yields.",
+			"date": "April 2024",
+			"nav": 
+			[
+				{
+					"name": "Github",
+					"url": "https://github.com/ArchitSalokhe/FarmHelp.git"
+				}
+			],
+			"tech": [
+				"/skills-imgs/Reactjs.png",
+				"/skills-imgs/Nodejs.png",
+				"/skills-imgs/MongoDB.png",
+				"/skills-imgs/Next-Auth.png"
+			],
+			"imgs": [
+				"/projects/farmhelp/pic 1.png",
+				"/projects/farmhelp/pic 2.png",
+				"/projects/farmhelp/pic 3.png",
+				"/projects/farmhelp/pic 4.png",
+				"/projects/farmhelp/pic 5.png",
+				"/projects/farmhelp/pic 6.png"
+				
+			]
+		},
+		"ocrconverter": {
+			"name": "ocrconverter",
+			"description": "Our Image to Text Converter is more than just a website to extract the Text from Image and get text file By using the Tesseract OCR library, combined with React's responsiveness, we've developed a platform that empowers you to effortlessly convert images into editable text.",
+			"date": "August 2023",
+			"nav": [
+				{
+					"name": "See Live",
+					"url": "https://imagetotext-five.vercel.app/"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/ArchitSalokhe/OCRconverter"
+				}
+			],
+			"tech": [
+				"/skills-imgs/Nextjs.png",
+				"/skills-imgs/Next-Auth.png",
+				"/skills-imgs/Postgres.png",
+				"/skills-imgs/Javascript.png",
+				"/skills-imgs/HTML.png",
+				"/skills-imgs/CSS.png"
+			],
+			"imgs": [
+				"/projects/ocrconverter/1.png",
+				"/projects/ocrconverter/2.png",
+				"/projects/ocrconverter/3.png"
+			]
+		},
+		"smart-schedular": {
+			"name": "Smart-schedular",
+			"description": "Smart Scheduler is a to-do app designed to help users efficiently organize tasks, set priorities, and manage their time effectively. ",
+			"date": "March 2023",
+			"nav": [
+				{
+					"name": "See Live",
+					"url": "https://smartschedular.netlify.app/"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/ArchitSalokhe/smart-schedular"
+				}
+			],
+			"tech": ["/skills-imgs/Javascript.png", "/skills-imgs/Nodejs.png"],
+			"imgs": ["/projects/smart-schedular/1.png"]
+		},
+		"coloriooo": {
+			"name": "coloriooo",
+			"description": "A simple color pallete made for developers.",
+			"date": "February 2023",
+			"nav": [
+				{
+					"name": "See Live",
+					"url": "https://coloriooo.netlify.app"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/OmkarKamble1/coloriooo"
+				}
+			],
+			"tech": [
+				"/skills-imgs/Reactjs.png",
+				"/skills-imgs/Vite.png",
+				"/skills-imgs/Javascript.png",
+				"/skills-imgs/Tailwind.png",
+				"/skills-imgs/HTML.png",
+				"/skills-imgs/CSS.png"
+			],
+			"imgs": [
+				"/projects/coloriooo/2.png",
+				"/projects/coloriooo/3.png",
+				"/projects/coloriooo/4.png",
+				"/projects/coloriooo/1.jpg"
+			]
+		},
+		"noteit": {
+			"name": "NoteIt",
+			"description": "A Note taking website with elegant and user friendly interface.",
+			"date": "February 2023",
+			"nav": [
+				{
+					"name": "See Live",
+					"url": "https://noteit-now.netlify.app/"
+				}
+			],
+			"tech": [
+				"/skills-imgs/Vite.png",
+				"/skills-imgs/Javascript.png",
+				"/skills-imgs/HTML.png",
+				"/skills-imgs/CSS.png"
+			],
+			"imgs": ["/projects/noteit/1.png"]
+		},
+		"myebooks": {
+			"name": "MyeBooks",
+			"description": "This is a simple eBook creator. You can create and read the books online. It's similar to a small social media of e-books. JavaScript, React.js, Express.js, Node.js, MongoDB",
+			"date": "December 2022",
+			"nav": [
+				{
+					"name": "See Live",
+					"url": "https://myebookss.netlify.app/"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/OmkarKamble1/MyeBooks"
+				}
+			],
+			"tech": [
+				"/skills-imgs/Reactjs.png",
+				"/skills-imgs/Vite.png",
+				"/skills-imgs/Expressjs.png",
+				"/skills-imgs/Javascript.png",
+				"/skills-imgs/Nodejs.png",
+				"/skills-imgs/MongoDB.png",
+				"/skills-imgs/HTML.png",
+				"/skills-imgs/CSS.png"
+			],
+			"imgs": [
+				"/projects/myebooks/2.png",
+				"/projects/myebooks/3.png",
+				"/projects/myebooks/4.png",
+				"/projects/myebooks/1.jpg"
+			]
+		},
+		"result-management-system": {
+			"name": "Result Management System",
+			"description": "This is a Result Management website made for my college. It provides reliable way to view results for students and add results for teachers. It has many other features too.",
+			"date": "December 2022",
+			"nav": [
+				{
+					"name": "See Live",
+					"url": "https://vppcoe-results.netlify.app/"
+				},
+				{
+					"name": "Github",
+					"url": "https://github.com/OmkarKamble1/Result-Management"
+				}
+			],
+			"tech": [
+				"/skills-imgs/Reactjs.png",
+				"/skills-imgs/Expressjs.png",
+				"/skills-imgs/Nodejs.png",
+				"/skills-imgs/MongoDB.png",
+				"/skills-imgs/Javascript.png",
+				"/skills-imgs/HTML.png",
+				"/skills-imgs/CSS.png"
+			],
+			"imgs": [
+				"/projects/resultMSystem/1.png",
+				"/projects/resultMSystem/3.png",
+				"/projects/resultMSystem/4.png",
+				"/projects/resultMSystem/2.png",
+				"/projects/resultMSystem/5.jpg"
+			]
+		}
+	},
+	"allProjects": [
+		{
+			"name": "farmhelp",
+			"url": "/project/farmhelp",
+			"thumbnail": "/projects/farmhelp/pic 1.png",
+			"stack": ["Nextjs", "Nodejs", "MongoDB", "Redux"]
+		},
+		{
+			"name": "ocrconverter",
+			"url": "/project/ocrconverter",
+			"thumbnail": "/projects/ocrconverter/1.png",
+			"stack": ["Nextjs", "Next-Auth", "Postgres"]
+		},
+		{
+			"name": "Smart-schedular",
+			"url": "/project/smart-schedular",
+			"thumbnail": "/projects/smart-schedular/1.png",
+			"stack": ["Nodejs", "Javascript"]
+		},
+		{
+			"name": "Ebook",
+			"url": "/project/coloriooo",
+			"thumbnail": "/projects/coloriooo/2.png",
+			"stack": ["Reactjs", "TailwindCSS"]
+		},
+		{
+			"name": "NoteIt",
+			"url": "/project/noteit",
+			"thumbnail": "/projects/noteit/1.png",
+			"stack": ["Reactjs"]
+		},
+		{
+			"name": "MyEBooks",
+			"url": "/project/myebooks",
+			"thumbnail": "/projects/myebooks/2.png",
+			"stack": ["Nodejs", "Expressjs", "Reactjs", "MongoDB"]
+		},
+		{
+			"name": "Result Management System",
+			"url": "/project/result-management-system",
+			"thumbnail": "/projects/resultMSystem/1.png",
+			"stack": ["Nodejs", "Expressjs", "Reactjs", "MongoDB"]
+		}
+	],
+	"skills": [
+		"/skills-imgs/Nextjs.png",
+		"/skills-imgs/Reactjs.png",
+		"/skills-imgs/Expressjs.png",
+		"/skills-imgs/Nodejs.png",
+		"/skills-imgs/Postgres.png",
+		"/skills-imgs/MongoDB.png",
+		"/skills-imgs/Javascript.png",
+		"/skills-imgs/CSS.png",
+		"/skills-imgs/HTML.png",
+		"/skills-imgs/Solidity.png",
+		"/skills-imgs/Java.png"
+	],
+	"experience": [
+		{
+			"heading": "Backend developer intern",
+			"company": "Openleaf",
+			"duration": "Jul 23 - Aug 23",
+			"description": "Worked on many things as a backend developer, some of them are Authentication-Authorization, OTP based signup, Password reset using magic-link, Internal tool using Appsmith and few frontend touch-ups aswell."
+		},
+		{
+			"heading": "Full stack developer intern",
+			"company": "Openleaf",
+			"duration": "Feb 23 - May 23",
+			"description": "Automated and enhanced the system. Transformed static code to dynamic at backend. Utilized Node.js, Express.js, PostgresSQL, Next.js and API development. It was a valuable opportunity to learn and experience new things."
+		}
+	]
+}

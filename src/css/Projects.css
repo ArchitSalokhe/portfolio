@@ -1,0 +1,256 @@
+.proj {
+	padding: 80px 90px 10px 90px;
+	min-height: calc(100vh - 90px);
+	color: white;
+}
+.proj-heading {
+	font-size: 40px;
+}
+.proj-wrapper {
+	margin-top: 40px;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 380px;
+	gap: 50px 100px;
+}
+
+.proj-card {
+	width: 100%;
+	height: 330px;
+	/* background: linear-gradient(rgb(10,10,10), rgb(10,10,10)), url(/svg/card.svg);
+	background-blend-mode: hard-light; */
+	background-color: rgb(12, 12, 12);
+	cursor: pointer;
+	border-radius: 1.6rem;
+	border-top: 1.5px #464646 solid;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	box-shadow: 0px 5px 15px -5px black;
+}
+.proj-card-name {
+	margin-top: 10px;
+	margin-left: 5px;
+	width: fit-content;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	height: 26px;
+	overflow: hidden;
+}
+.proj-card-name > div {
+	transition: all 360ms cubic-bezier(0.165, 0.84, 0.44, 1.1);
+	width: fit-content;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+.proj-card-name > div > p {
+	font-size: 21px;
+}
+.proj-card-name > div > p:nth-child(2) {
+	color: #959595;
+}
+.proj-card-link:hover ~ .proj-card-name > div {
+	transform: translateY(-28px);
+}
+.proj-card-img {
+	width: 80%;
+	object-fit: contain;
+	aspect-ratio: 1.03;
+	border-radius: 0.5rem;
+	transition: all 300ms ease;
+	position: relative;
+}
+.proj-card:hover > .proj-card-img {
+	transform: scale(1.05);
+}
+.proj-card-nav {
+	height: 40px;
+	width: 40px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	border-radius: 100%;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
+	transition: all 300ms ease;
+	transform: scale(0.8);
+	opacity: 0;
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.8);
+}
+.proj-card:hover > .proj-card-nav {
+	transform: scale(1);
+	opacity: 1;
+	background: #ffffff;
+	rotate: -45deg;
+}
+.proj-card-link {
+	text-decoration: none;
+}
+
+.proj-card-skills {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	bottom: 10px;
+	left: 0;
+	width: 88%;
+	padding: 5px 20px;
+	scrollbar-width: 0px;
+	column-gap: 7px;
+}
+
+.proj-card-skills > span {
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(200, 200, 200);
+	border-radius: 30px;
+	padding: 5px 12px;
+	font-size: 14.5px;
+	font-weight: 400;
+}
+
+.proj-card-skills::-webkit-scrollbar {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.proj-wrapper {
+		gap: 50px 80px;
+	}
+	.proj-card {
+		height: 310px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.proj-wrapper {
+		gap: 20px 60px;
+	}
+	.proj-card {
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.proj {
+		padding: 80px 60px 10px 60px;
+	}
+	.proj-wrapper {
+		grid-auto-rows: 360px;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.proj-wrapper {
+		gap: 10px 40px;
+	}
+	.proj-card {
+		height: 290px;
+	}
+}
+@media screen and (max-width: 860px) {
+	.proj-wrapper {
+		grid-template-columns: 1fr;
+		gap: 40px 0px;
+		grid-auto-rows: 400px;
+	}
+
+	.proj-card {
+		height: 370px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.proj-heading {
+		font-size: 35px;
+	}
+	.proj {
+		padding: 80px 50px 10px 50px;
+	}
+	.proj-wrapper {
+		grid-template-columns: 1fr;
+		gap: 40px 0px;
+		grid-auto-rows: 400px;
+	}
+	.proj-card {
+		height: 370px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.proj-wrapper {
+		gap: 60px 0px;
+		grid-auto-rows: 360px;
+	}
+	.proj-card {
+		height: 330px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.proj-wrapper {
+		grid-auto-rows: 340px;
+		padding: 0 5px;
+	}
+	.proj-card {
+		height: 310px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.proj-wrapper {
+		grid-auto-rows: 320px;
+	}
+	.proj-card {
+		height: 275px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.proj-wrapper {
+		grid-auto-rows: 280px;
+	}
+	.proj-card {
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.proj-wrapper {
+		grid-auto-rows: 250px;
+	}
+	.proj-card {
+		height: 220px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.proj-wrapper {
+		grid-auto-rows: 200px;
+	}
+	.proj-card {
+		height: 180px;
+	}
+}
+@media screen and (max-width: 370px) {
+	.proj-wrapper {
+		grid-auto-rows: 170px;
+	}
+	.proj-card {
+		height: 160px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.proj {
+		padding: 80px 35px 10px 35px;
+	}
+}
