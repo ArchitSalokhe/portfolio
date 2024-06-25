@@ -16,7 +16,9 @@
 				"/skills-imgs/Reactjs.png",
 				"/skills-imgs/Nodejs.png",
 				"/skills-imgs/MongoDB.png",
-				"/skills-imgs/Next-Auth.png"
+				"/skills-imgs/Tailwind.png",
+				"/skills-imgs/Python.png",
+				"/skills-imgs/ML.png"
 			],
 			"imgs": [
 				"/projects/farmhelp/pic 1.png",
@@ -43,12 +45,10 @@
 				}
 			],
 			"tech": [
-				"/skills-imgs/Nextjs.png",
-				"/skills-imgs/Next-Auth.png",
-				"/skills-imgs/Postgres.png",
+				"/skills-imgs/Reactjs.png",
+				"/skills-imgs/CSS.png",
 				"/skills-imgs/Javascript.png",
-				"/skills-imgs/HTML.png",
-				"/skills-imgs/CSS.png"
+				"/skills-imgs/HTML.png"
 			],
 			"imgs": [
 				"/projects/ocrconverter/1.png",
@@ -188,13 +188,13 @@
 			"name": "farmhelp",
 			"url": "/project/farmhelp",
 			"thumbnail": "/projects/farmhelp/pic 1.png",
-			"stack": ["Nextjs", "Nodejs", "MongoDB", "Redux"]
+			"stack": ["Nextjs", "Nodejs", "MongoDB", "TailwindCSS", "Python", "Machine learning"]
 		},
 		{
 			"name": "ocrconverter",
 			"url": "/project/ocrconverter",
 			"thumbnail": "/projects/ocrconverter/1.png",
-			"stack": ["Nextjs", "Next-Auth", "Postgres"]
+			"stack": ["Reactjs", "css", "Tesseract OCR "]
 		},
 		{
 			"name": "Smart-schedular",

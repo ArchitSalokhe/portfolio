@@ -15,8 +15,8 @@ function Projects() {
   // }, []);
 
   return (
-    <section id='projects' className='proj text-white'>
-      <h1 className='proj-heading h'>Projects</h1>
+    <section id='projects' className='proj '>
+      <h1 className='proj-heading h  '>Projects</h1>
       <div className='proj-wrapper'>
         {allProjects.map((item, index) => (
           <div key={index} className='proj-card-wrapper hd' onClick={() => navigate(`/project/${item.name.toLowerCase()}`)}>

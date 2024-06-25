@@ -51,7 +51,10 @@ const Skill = () => {
       id: 7,
       src: python,
       title: "Python",
-      style: "shadow-pythonbor",
+      style: "",
+      customStyle: {
+        boxShadow: "0 4px 6px -1px rgba(0, 0, 255, 0.5), 0 4px 6px -1px rgba(0, 255, 0, 0.5)",
+      },
     },
     {
       id: 8,

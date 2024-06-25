@@ -1,10 +1,11 @@
 .proj {
-	padding: 80px 90px 10px 90px;
+	padding: 20px 90px 10px 90px;
 	min-height: calc(100vh - 90px);
-	color: white;
+	/* color: white; */
 }
 .proj-heading {
 	font-size: 40px;
+	color: #ffffff;
 }
 .proj-wrapper {
 	margin-top: 40px;

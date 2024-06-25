@@ -18,7 +18,7 @@ html,body{
   /* place-content: center; */
   /* place-items: center; */
   justify-content :center;
-  margin-left: 440px;
+  margin-left: 500px;
 }
 .wrapper .button{
   display: inline-block;
@@ -118,3 +118,39 @@ span{
   -webkit-text-fill-color: transparent;
 
 }
+
+@media only screen and (max-width: 600px) {
+  .wrapper{
+    padding-top: 0px;
+   margin-left: 50px;
+   justify-content: center;
+   margin-bottom: 100px;
+  }
+  .wrapper .button {
+    display: inline-block;
+    margin: 0 10px;
+    overflow: hidden;
+    cursor: none;
+    transition: none;
+  }
+  .button .icon {
+    display: inline-block;
+    line-height: 30px;
+  }
+  .button:nth-child(1):hover{
+    width: 50px;
+  }
+  .button:nth-child(2):hover{
+    width: 50px;
+  }
+  .button:nth-child(3):hover{
+    width: 50px;
+  }
+  .button:nth-child(4):hover{
+    width: 50px;
+  }
+  .button:nth-child(5):hover{
+    width: 50px;
+  }
+}
+ 

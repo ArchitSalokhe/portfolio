@@ -33,9 +33,7 @@ function App() {
           <Route path="/project/:projectName" element={<Project />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-        {/* <Skill/> */}
-        {/* <Sociallinks /> */}
-        {/* <Footer /> */}
+        
       </div>
     </Router>
   );
