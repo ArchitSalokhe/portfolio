@@ -51,10 +51,8 @@ const Skill = () => {
       id: 7,
       src: python,
       title: "Python",
-      style: "",
-      customStyle: {
-        boxShadow: "0 4px 6px -1px rgba(0, 0, 255, 0.5), 0 4px 6px -1px rgba(0, 255, 0, 0.5)",
-      },
+      // style: "",
+      style: "shadow-purple-500 shadow-pink-500",
     },
     {
       id: 8,
