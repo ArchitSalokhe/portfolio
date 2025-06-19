@@ -16,12 +16,11 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          I’m Archit Salokhe, a passionate and detail-oriented software developer with a Bachelor’s degree in Information Technology 
+          from Mumbai University. I specialize in full-stack web development, with hands-on experience in technologies like JavaScript, 
+          React, Next.js, Node.js, Express, MongoDB, and Python. I’ve worked on impactful academic and personal projects—from crop recommendation 
+          systems to chatbot integrations—combining clean UI with scalable backend logic. I’m always eager to learn, solve real-world problems 
+          with code, and contribute to teams building meaningful digital experiences.
         </p>
 
         <br />
