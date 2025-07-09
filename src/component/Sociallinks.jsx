@@ -44,7 +44,7 @@ const Sociallinks = () => {
 					<span>Mail</span></a>
 				</div>
 				<div class="button">
-					<a href="/Archit_Salokhe Resume.pdf" download={true}>	
+					<a href="/Asresume.pdf" download={true}>	
 					<div class="icon">
 						<i>
 							<FontAwesomeIcon icon={faAddressCard} />
